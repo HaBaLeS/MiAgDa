@@ -8,4 +8,6 @@ setup(name='MiAgDa',
       author_email='falko@lehmann-carpzov.de',
       license='beer',
       packages=['miagda'],
+      install_requires=['pygame'],
+      scripts=['bin/miagda-run'],
       zip_safe=False)
