@@ -1,0 +1,28 @@
+[common]
+    #Absolute path to font necessary
+    default_font="Chunkfive Ex.ttf"
+    default_font_size=30
+    screen_size=[1920,1080]
+
+[gadgets]
+    [gadgets.sometext]
+        type = "textFromURL"
+        name = "Some Text"
+        url = "https://heise.de"
+        interpreter = "regex"
+        interpreterpaylod = "match bla regex"
+
+    [gadgets.somePicture]
+        name = "bla bla_picture"
+        url = "goatse"
+        type= "image"
+
+[screens]
+    [screens.overview]
+        name = "buja"
+        gadget = "gadget.ubahn"
+
+    [screens.testresult]
+        pos = [ 10,300]
+
+    [screens.sprintfigures]
